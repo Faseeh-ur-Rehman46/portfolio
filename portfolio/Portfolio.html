@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Hassan | Developer Portfolio</title>
+    <!-- Font Awesome (icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER / NAVBAR ===== -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Ali<span>Hassan</span></h1>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#timeline">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+</header>
+
+<!-- ===== HOME SECTION ===== -->
+<section id="home" class="section home">
+    <div class="home-content">
+        <h2>Hello, I'm</h2>
+        <h1>Ali Hassan</h1>
+        <h3>I am a <span id="typing-text"></span></h3>
+
+        <p>
+            Passionate developer focused on problem-solving, algorithms,
+            and building interactive web applications.
+        </p>
+
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="section about">
+    <h2 class="section-title">About Me</h2>
+
+    <p class="about-text">
+        I am a computer science student with strong interest in
+        C++, data structures, algorithms, and web development.
+    </p>
+
+    <!-- Skills -->
+    <div class="skills">
+        <div class="skill">
+            <span>C++</span>
+            <div class="progress-bar">
+                <div class="progress" data-progress="85"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+                <div class="progress" data-progress="90"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+                <div class="progress" data-progress="80"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+                <div class="progress" data-progress="75"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS SECTION ===== -->
+<section id="projects" class="section projects">
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Filter Buttons -->
+    <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="cpp">C++</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+    </div>
+
+    <!-- Project Cards -->
+    <div class="project-container">
+        <div class="project-card web">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio using HTML, CSS, JS.</p>
+        </div>
+
+        <div class="project-card cpp">
+            <h3>Expense Tracker</h3>
+            <p>C++ project using linked lists and file handling.</p>
+        </div>
+
+        <div class="project-card js">
+            <h3>To-Do App</h3>
+            <p>JavaScript based task manager with local storage.</p>
+        </div>
+
+        <div class="project-card web js">
+            <h3>Currency Converter</h3>
+            <p>Weather app using API and JavaScript.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== EXPERIENCE / EDUCATION TIMELINE ===== -->
+<section id="timeline" class="section timeline">
+    <h2 class="section-title">Experience & Education</h2>
+
+    <div class="timeline-container">
+        <div class="timeline-item">
+            <span class="year">2024</span>
+            <h3>Web Development</h3>
+            <p>Built interactive websites using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="timeline-item">
+            <span class="year">2023</span>
+            <h3>C++ & DSA</h3>
+            <p>Implemented data structures and algorithms in C++.</p>
+        </div>
+
+        <div class="timeline-item">
+            <span class="year">2022</span>
+            <h3>Computer Science Student</h3>
+            <p>Started CS journey focusing on programming fundamentals.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT & QUICK CONNECT SECTION ===== -->
+<section id="contact" class="section contact">
+    <h2 class="section-title">Connect With Me</h2>
+    <p class="contact-subtitle">
+        Let’s collaborate! Reach me the way that works best for you.
+    </p>
+
+    <div class="contact-grid">
+
+        <!-- Quick Contact Cards -->
+        <div class="contact-cards">
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>Quick email response</p>
+                <a href="mailto:alihassan@email.com">alihassan@email.com</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>WhatsApp</h3>
+                <p>Chat or quick discussion</p>
+                <a href="#">+92  03241716971</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Professional network</p>
+                <a href="#">Visit Profile</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Check my projects</p>
+                <a href="#">View Repos</a>
+            </div>
+        </div>
+
+        <!-- Quick Message Form -->
+        <div class="contact-form-wrapper">
+            <form id="quick-contact-form" class="contact-form">
+                <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="quick-name" required>
+                    <label>Your Name</label>
+                </div>
+
+                <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="quick-email" required>
+                    <label>Email Address</label>
+                </div>
+
+                <div class="input-box textarea-box">
+                    <i class="fas fa-comment"></i>
+                    <textarea id="quick-message" required></textarea>
+                    <label>Message</label>
+                </div>
+
+                <button type="submit" class="btn">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+
+                <p id="quick-form-msg"></p>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Availability Status -->
+    <div class="availability-status">
+        <span class="status-dot"></span>
+        <span class="status-text">Currently open to internships & freelance work</span>
+    </div>
+</section>
+
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2026 Ali Hassan | All Rights Reserved</p>
+</footer>
+
+<!-- Scroll To Top Button -->
+<button id="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
