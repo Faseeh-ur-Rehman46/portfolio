@@ -120,13 +120,26 @@ export default function Footer({ data }) {
                 </div>
 
                 <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                  <a
-                    href={`mailto:${personal.email}`}
-                    className="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1.5"
-                  >
-                    <Mail className="w-3.5 h-3.5" />
-                    <span>Or direct mail: {personal.email}</span>
-                  </a>
+                  <div className="flex flex-wrap items-center gap-4 text-xs text-purple-300">
+                    <a
+                      href={`mailto:${personal.email}`}
+                      className="text-purple-400 hover:text-purple-200 flex items-center gap-1.5"
+                    >
+                      <Mail className="w-3.5 h-3.5" />
+                      <span>{personal.email}</span>
+                    </a>
+                    {personal.phone && (
+                      <a
+                        href={`tel:${personal.phone}`}
+                        className="text-purple-400 hover:text-purple-200 flex items-center gap-1"
+                      >
+                        <span>• 📞 {personal.phone}</span>
+                      </a>
+                    )}
+                    {personal.location && (
+                      <span className="text-slate-400">• 📍 {personal.location}</span>
+                    )}
+                  </div>
 
                   <button
                     type="submit"

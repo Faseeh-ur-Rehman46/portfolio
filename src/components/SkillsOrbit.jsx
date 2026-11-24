@@ -7,7 +7,9 @@ import {
   Sparkles, 
   Globe, 
   Terminal,
-  FileSpreadsheet
+  FileSpreadsheet,
+  Smartphone,
+  Monitor
 } from 'lucide-react';
 
 export default function SkillsOrbit({ data }) {
@@ -22,9 +24,9 @@ export default function SkillsOrbit({ data }) {
         
         {/* Mission Statement */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <p className="text-xs uppercase tracking-widest text-purple-400 font-semibold mb-3">About &amp; Philosophy</p>
+          <p className="text-xs uppercase tracking-widest text-purple-400 font-semibold mb-3">Technical Skills &amp; Technologies</p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-snug">
-            "I'm currently looking to join a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-400 to-indigo-300">cross-functional team</span> that values improving people's lives through accessible design &amp; scalable code."
+            "Building responsive interfaces, <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-400 to-indigo-300">component-based web &amp; mobile applications</span>, desktop software, and <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-400 to-indigo-300">API-connected solutions</span>."
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 mx-auto mt-6 rounded-full" />
         </div>
@@ -52,62 +54,69 @@ export default function SkillsOrbit({ data }) {
 
             {/* Orbiting Planets / Tech Nodes */}
             
-            {/* Inner Orbit Items */}
+            {/* Inner Orbit Items: React.js / Next.js & Mobile App UI */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-1">
               <div className="pointer-events-auto -translate-x-1/2 -translate-y-1/2 flex items-center gap-1 px-3 py-1.5 rounded-full bg-[#180829] border border-cyan-500/50 text-cyan-300 text-xs font-semibold shadow-lg shadow-cyan-900/30 hover:scale-125 transition-transform cursor-pointer">
                 <Code2 className="w-3.5 h-3.5 text-cyan-400" />
-                <span>React</span>
+                <span>React.js &amp; Next.js</span>
               </div>
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-1" style={{ animationDelay: '-10s' }}>
-              <div className="pointer-events-auto translate-x-1/2 translate-y-1/2 flex items-center gap-1 px-3 py-1.5 rounded-full bg-[#180829] border border-emerald-500/50 text-emerald-300 text-xs font-semibold shadow-lg shadow-emerald-900/30 hover:scale-125 transition-transform cursor-pointer">
-                <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-400" />
-                <span>Data Entry & Excel</span>
+              <div className="pointer-events-auto translate-x-1/2 translate-y-1/2 flex items-center gap-1 px-3 py-1.5 rounded-full bg-[#180829] border border-pink-500/50 text-pink-300 text-xs font-semibold shadow-lg shadow-pink-900/30 hover:scale-125 transition-transform cursor-pointer">
+                <Smartphone className="w-3.5 h-3.5 text-pink-400" />
+                <span>Mobile &amp; App UI</span>
               </div>
             </div>
 
-            {/* Middle Orbit Items */}
+            {/* Middle Orbit Items: TypeScript & JS, PostgreSQL/MongoDB/Oracle, Data Entry */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-2">
               <div className="pointer-events-auto -translate-x-1/2 -translate-y-1/2 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#1A0A2E] border border-blue-500/50 text-blue-300 text-xs font-semibold shadow-lg shadow-blue-900/30 hover:scale-125 transition-transform cursor-pointer">
                 <Terminal className="w-3.5 h-3.5 text-blue-400" />
-                <span>TypeScript</span>
+                <span>TypeScript &amp; ES6+</span>
               </div>
             </div>
 
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-2" style={{ animationDelay: '-14s' }}>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-2" style={{ animationDelay: '-9s' }}>
               <div className="pointer-events-auto translate-x-1/2 translate-y-1/2 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#1A0A2E] border border-fuchsia-500/50 text-fuchsia-300 text-xs font-semibold shadow-lg shadow-fuchsia-900/30 hover:scale-125 transition-transform cursor-pointer">
                 <Database className="w-3.5 h-3.5 text-fuchsia-400" />
-                <span>SQL & CRM</span>
+                <span>PostgreSQL · Mongo · Oracle</span>
               </div>
             </div>
 
-            {/* Outer Orbit Items */}
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-2" style={{ animationDelay: '-18s' }}>
+              <div className="pointer-events-auto translate-x-1/2 -translate-y-1/2 flex items-center gap-1 px-3 py-1.5 rounded-full bg-[#180829] border border-emerald-500/50 text-emerald-300 text-xs font-semibold shadow-lg shadow-emerald-900/30 hover:scale-125 transition-transform cursor-pointer">
+                <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-400" />
+                <span>Data Entry</span>
+              </div>
+            </div>
+
+            {/* Outer Orbit Items: Node.js & FastAPI, Electron & PySide6, Python & OpenCV */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-3">
               <div className="pointer-events-auto -translate-x-1/2 -translate-y-1/2 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#160626] border border-purple-400/50 text-purple-200 text-xs font-semibold shadow-lg shadow-purple-900/40 hover:scale-125 transition-transform cursor-pointer">
-                <Globe className="w-3.5 h-3.5 text-purple-300" />
-                <span>Next.js</span>
+                <Server className="w-3.5 h-3.5 text-purple-300" />
+                <span>Node.js &amp; FastAPI</span>
               </div>
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-3" style={{ animationDelay: '-12s' }}>
               <div className="pointer-events-auto translate-x-1/2 translate-y-1/2 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#160626] border border-amber-500/50 text-amber-300 text-xs font-semibold shadow-lg shadow-amber-900/40 hover:scale-125 transition-transform cursor-pointer">
                 <Cpu className="w-3.5 h-3.5 text-amber-400" />
-                <span>Python & AI</span>
+                <span>Python · OpenCV · MediaPipe</span>
               </div>
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none animate-orbit-3" style={{ animationDelay: '-24s' }}>
               <div className="pointer-events-auto -translate-y-1/2 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#160626] border border-sky-400/50 text-sky-300 text-xs font-semibold shadow-lg shadow-sky-900/40 hover:scale-125 transition-transform cursor-pointer">
-                <Server className="w-3.5 h-3.5 text-sky-400" />
-                <span>Django & Cloud</span>
+                <Monitor className="w-3.5 h-3.5 text-sky-400" />
+                <span>Electron &amp; PySide6</span>
               </div>
             </div>
 
           </div>
 
           <p className="text-xs text-slate-400 mt-6 tracking-wide text-center">
-            ✦ Core Technical & Data Operations Ecosystem
+            ✦ Web Frontend • Backend &amp; REST APIs • Mobile &amp; Desktop Apps • Databases
           </p>
 
         </div>

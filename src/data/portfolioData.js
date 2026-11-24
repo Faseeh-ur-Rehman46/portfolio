@@ -6,140 +6,186 @@ export const initialPortfolioData = {
     greeting: "Hello! I Am Muhammad Faseeh Altaf",
     field: "Computer Science",
     university: "University of Central Punjab (UCP)",
-    degree: "Bachelor of Science in Computer Science",
-    sloganRole: "Full-Stack & AI Engineer",
+    degree: "BS Computer Science (2021–Present)",
+    sloganRole: "Frontend & Full-Stack Developer",
     punchline: "Judges a book by its cover...",
-    punchlineSubtitle: "Because if the cover does not impress you, what else can?",
+    punchlineSubtitle: "Because responsive interfaces, clean component architecture, and reliable APIs define great software.",
     typewriterRoles: [
-      "Full-Stack Developer.",
-      "AI & ML Solutions Engineer.",
-      "Computer Vision Researcher.",
-      "Software Engineer."
+      "Frontend & Full-Stack Developer.",
+      "Web & Mobile App Developer.",
+      "Desktop Application Developer.",
+      "React, Next.js & FastAPI Engineer."
     ],
-    currentRole: "Full-Stack Developer & AI Solutions",
+    currentRole: "Frontend & Full-Stack Developer | Web & Application Development",
     company: "K-TECH CLANS",
-    bio: "I’m a full-stack and AI engineer currently working at K-TECH CLANS, where I build React, React Native, and Django systems — including a sale-prediction and automated low-stock ordering flow. Alongside that, I build end-to-end products: retrieval-augmented AI systems, a computer vision pipeline detecting image tampering with 90%+ accuracy, and a telemetry/observability platform with ML-based error clustering.",
-    bioSecond: "I care most about the parts of engineering that don’t show up in a demo: getting the underlying approach correct (not just working), and shipping things other people can actually install, deploy, or extend. React, Next.js, Python, and AWS are my primary tools; TensorFlow and OpenCV for ML/CV work.",
-    statusBadge: "Open to Remote & Relocation",
+    bio: "Computer Science student and frontend/full-stack developer with 2.5 years of experience in web and mobile application development. Experienced in building responsive interfaces, component-based web applications, API-connected solutions, and business-focused software.",
+    bioSecond: "Works across frontend and backend development using React.js, Next.js, TypeScript, JavaScript (ES6+), Tailwind CSS, Node.js, FastAPI, Python, and databases (PostgreSQL, MongoDB, Oracle). Familiar with desktop application development (Electron, PySide6), application workflows, debugging, and Git-based development practices.",
+    statusBadge: "2.5+ Years Experience · Web, Mobile & Desktop Apps",
     email: "faseehaltaf46@gmail.com",
-    location: "Pakistan · Open to Remote & Relocation",
+    phone: "03291013649",
+    whatsapp: "https://wa.me/923291013649",
+    location: "Gujranwala, Pakistan",
     avatar: "/faseeh.jpg",
+    languagesSpoken: ["Urdu (Native)", "English (Fluent)", "Punjabi (Native)"],
     stats: [
-      { label: "Repositories", value: "11+" },
-      { label: "CV Accuracy", value: "90%+" },
-      { label: "AI & Full-Stack", value: "Production" },
-      { label: "Primary Stack", value: "React · Python · AWS" }
+      { label: "Experience", value: "2.5 Years" },
+      { label: "Current Company", value: "K-TECH CLANS" },
+      { label: "Education", value: "BSCS @ UCP" },
+      { label: "Core Stack", value: "React · Next.js · FastAPI" }
     ]
   },
   socials: {
     github: "https://github.com/Faseeh-ur-Rehman46",
     linkedin: "https://www.linkedin.com/in/muhammad-faseeh-altaf-19613224a/",
-    email: "mailto:faseehaltaf46@gmail.com"
+    email: "mailto:faseehaltaf46@gmail.com",
+    whatsapp: "https://wa.me/923291013649"
   },
   experiences: [
     {
       id: "exp-1",
-      title: "Full-Stack & Software Engineer",
+      title: "Frontend & Full-Stack Developer",
       company: "K-TECH CLANS",
-      period: "Jan 2026 — Present",
-      role: "Full-Stack & ML Engineering",
-      description: "Full-stack development on enterprise management systems built with React, React Native, and Django at K-TECH CLANS. Worked on a sale prediction feature and an automated low-stock alert flow — when inventory drops below a set threshold, the system flags it and, on manager approval, automatically places a restock order with the vendor.",
+      period: "2.5 Years Experience — Present",
+      role: "Web & Mobile Application Development",
+      description: "Developing and maintaining responsive web interfaces, component-based web applications, mobile-friendly application features, and API-connected business software at K-TECH CLANS.",
       highlights: [
-        "Engineered cross-platform web & mobile workflows in React and React Native integrated with scalable Django REST APIs.",
-        "Built predictive sales forecasting logic to anticipate inventory depletion before stockouts occur.",
-        "Designed an automated low-stock alert pipeline with one-click manager approval to trigger direct vendor restock orders."
+        "Developed and maintained responsive web interfaces and application features using React.js, Next.js, TypeScript, JavaScript (ES6+), and Tailwind CSS.",
+        "Implemented reusable UI components and connected frontend applications with backend services (Node.js, FastAPI, Python) through REST APIs.",
+        "Worked on application workflows, interface functionality, debugging, and performance improvements across web and app-oriented projects.",
+        "Used modern development tools (VS Code, Visual Studio) and Git/GitHub version-control workflows to build and maintain production software."
       ],
-      tags: ["React Native", "Django", "Python", "Sale Prediction ML", "REST APIs", "PostgreSQL"],
+      tags: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "FastAPI", "REST APIs"],
       accent: "#a855f7"
     },
     {
       id: "exp-2",
-      title: "Full-Stack & RAG AI Engineer",
-      company: "Open-Source & Product Engineering",
-      period: "2025 — Present",
-      role: "Full-Stack & GenAI Developer",
-      description: "Architected production-ready React & Next.js applications integrated with Google Gemini LLMs and Supabase pgvector cosine similarity search for real-time contextual retrieval.",
+      title: "Desktop & Cross-Platform App Development",
+      company: "Business & Application Workflows",
+      period: "2023 — Present",
+      role: "Desktop & Mobile UI Engineer",
+      description: "Engineered cross-device mobile application interfaces and desktop business software using Electron, PySide6 (Python Qt), and modern responsive frontend architectures.",
       highlights: [
-        "Built modular React components and backend pipelines for seamless LLM & vector search integration.",
-        "Engineered vector embedding retrieval pipelines using Supabase pgvector for low-latency contextual responses.",
-        "Created streaming interfaces with source context citations and modern glassmorphic UI."
+        "Built desktop application interfaces and business-software workflows using Electron (JavaScript/TypeScript) and PySide6 (Python).",
+        "Designed mobile-first layouts and cross-device UI adaptations for seamless user experiences across desktop, tablet, and smartphone screens.",
+        "Integrated PostgreSQL, MongoDB, and Oracle Database connectivity for reliable application data handling.",
+        "Applied AI/ML fundamentals, MediaPipe, and OpenCV for computer vision and intelligent software features."
       ],
-      tags: ["TypeScript", "React", "Next.js", "Gemini API", "Supabase pgvector", "RAG"],
+      tags: ["Electron", "PySide6", "Python", "Mobile UI", "PostgreSQL", "MongoDB", "Oracle DB"],
       accent: "#a855f7"
     },
     {
       id: "exp-3",
-      title: "AI & Computer Vision Researcher",
-      company: "Independent Engineering",
-      period: "2025 — 2026",
-      role: "ML & Computer Vision Engineer",
-      description: "Architected deep learning forensic pipelines for digital media authentication (90%+ accuracy) and cloud-hosted time-series electricity load forecasting systems on AWS.",
+      title: "BS Computer Science",
+      company: "University of Central Punjab (UCP)",
+      period: "2021 — Present",
+      role: "Undergraduate Computer Science Scholar",
+      description: "Pursuing Bachelor of Science in Computer Science at University of Central Punjab, focusing on full-stack web engineering, database systems, software architecture, and AI/ML fundamentals.",
       highlights: [
-        "Combined Error Level Analysis (ELA) with custom CNN architectures in TensorFlow & OpenCV to detect image splicing.",
-        "Trained and deployed time-series forecasting models (Statsmodels/pmdarima & Scikit-learn) on AWS EC2 with Streamlit dashboards.",
-        "Focused on reproducible ML pipelines from data preprocessing to cloud deployment."
+        "Strong practical foundation in Object-Oriented Programming, Database Systems (PostgreSQL, MongoDB, Oracle), and Web & Application Engineering.",
+        "Built web, desktop, and computer vision projects combining Python, FastAPI, React.js, Next.js, OpenCV, and MediaPipe.",
+        "Active contributor to Git/GitHub collaborative development and modern software engineering practices."
       ],
-      tags: ["TensorFlow", "OpenCV", "Python", "AWS EC2", "Scikit-Learn", "Streamlit"],
+      tags: ["BS Computer Science", "UCP", "Software Engineering", "Databases", "AI/ML", "OpenCV"],
       accent: "#a855f7"
     },
     {
       id: "exp-4",
-      title: "B.S. in Computer Science",
-      company: "University of Central Punjab (UCP)",
-      period: "Undergraduate",
-      role: "Computer Science Scholar",
-      description: "Focusing on distributed systems, software engineering architecture, machine learning algorithms, database systems, and computer vision pipelines.",
+      title: "Intermediate — Pre-Engineering",
+      company: "KIPS College, Gujranwala",
+      period: "2019 — 2021",
+      role: "Pre-Engineering Foundation",
+      description: "Completed Intermediate in Pre-Engineering at KIPS College, Gujranwala with strong analytical foundations in Mathematics, Physics, and problem-solving.",
       highlights: [
-        "Strong foundation in Data Structures, Algorithms, C++, SQL, and Object-Oriented Software Engineering.",
-        "Built 11+ repositories spanning observability, cryptography, full-stack AI, and deep learning.",
-        "Bridging academic ML theory with deployable cloud-native web applications."
+        "Completed Intermediate (Pre-Engineering) from KIPS College, Gujranwala (2019–2021) with 660 Marks.",
+        "Developed strong analytical, mathematical, and algorithmic problem-solving capabilities.",
+        "Transitioned directly into Computer Science and full-stack software development."
       ],
-      tags: ["Computer Science", "C++", "Python", "SQL", "Algorithms", "System Design"],
+      tags: ["Pre-Engineering", "KIPS College Gujranwala", "Mathematics", "Analytical Problem Solving"],
       accent: "#a855f7"
     }
   ],
   skills: {
     orbiting: [
-      { name: "React & Next.js", category: "frontend", ring: 1 },
-      { name: "Python", category: "backend", ring: 1 },
-      { name: "TypeScript", category: "languages", ring: 1 },
-      { name: "Django", category: "backend", ring: 2 },
-      { name: "TensorFlow", category: "ai", ring: 2 },
+      { name: "React.js & Next.js", category: "web", ring: 1 },
+      { name: "TypeScript & JS", category: "web", ring: 1 },
+      { name: "Tailwind CSS", category: "ui", ring: 1 },
+      { name: "Node.js & FastAPI", category: "backend", ring: 2 },
+      { name: "Electron & PySide6", category: "desktop", ring: 2 },
       { name: "Data Entry", category: "data", ring: 2 },
-      { name: "AWS Cloud", category: "cloud", ring: 3 },
-      { name: "OpenCV", category: "ai", ring: 3 },
-      { name: "Docker", category: "cloud", ring: 3 }
+      { name: "PostgreSQL & MongoDB", category: "database", ring: 3 },
+      { name: "Python & OpenCV", category: "ai", ring: 3 },
+      { name: "Mobile App UI", category: "mobile", ring: 3 }
     ],
     categories: [
       {
-        title: "Languages",
+        title: "Web Frontend",
         code: "01",
-        items: ["Python", "JavaScript", "TypeScript", "C++", "SQL"]
+        items: [
+          "HTML5 & CSS3",
+          "JavaScript (ES6+)",
+          "TypeScript",
+          "React.js",
+          "Next.js",
+          "Tailwind CSS",
+          "jQuery"
+        ]
       },
       {
-        title: "Frontend",
+        title: "UI & Frontend Practices",
         code: "02",
-        items: ["React", "Next.js", "React Native", "Vite", "Tailwind CSS"]
+        items: [
+          "Responsive Design & Mobile-First Layouts",
+          "Reusable Components",
+          "Component-Based Architecture",
+          "Interactive Interfaces",
+          "DOM Manipulation",
+          "Cross-Device Layout Adaptation"
+        ]
       },
       {
-        title: "Backend",
+        title: "Backend & APIs",
         code: "03",
-        items: ["Django", "Flask", "Node.js", "REST APIs", "Socket.io"]
+        items: [
+          "Node.js",
+          "FastAPI (Python)",
+          "Python Backend Development",
+          "REST API Development & Integration",
+          "Frontend-Backend Integration"
+        ]
       },
       {
-        title: "AI / Machine Learning",
+        title: "Mobile & Desktop App Development",
         code: "04",
-        items: ["TensorFlow", "OpenCV", "Scikit-learn", "Statsmodels / pmdarima", "MediaPipe", "Streamlit"]
+        items: [
+          "Mobile-Friendly Interface Development",
+          "Application UI Implementation & Workflows",
+          "Electron (Cross-Platform Desktop Apps)",
+          "PySide6 (Python Desktop Interfaces)",
+          "Business-Software Workflows & API Integration"
+        ]
       },
       {
-        title: "Generative AI",
+        title: "Databases",
         code: "05",
-        items: ["RAG Pipelines", "LLM APIs (Gemini)", "Embeddings & Vector Search", "Ollama (Local LLMs)"]
+        items: [
+          "PostgreSQL",
+          "MongoDB",
+          "Oracle Database",
+          "Database Connectivity",
+          "Application Data Handling"
+        ]
       },
       {
-        title: "Databases & Cloud",
+        title: "Tools, AI/CV & Additional Skills",
         code: "06",
-        items: ["PostgreSQL", "MySQL", "Supabase (pgvector)", "AWS (EC2)", "Vercel", "Docker"]
+        items: [
+          "Git & GitHub Version Control",
+          "VS Code & Visual Studio",
+          "Debugging & Troubleshooting",
+          "Software Feature Implementation",
+          "AI/ML Fundamentals, MediaPipe & OpenCV",
+          "Languages: Urdu (Native), English (Fluent), Punjabi"
+        ]
       },
       {
         title: "Data Entry Expert",
@@ -157,99 +203,80 @@ export const initialPortfolioData = {
   },
   projects: [
     {
-      id: "tracelens",
+      id: "fullstack-web-app-suite",
       number: "01",
-      title: "Tracelens",
-      category: "Developer Analytics · TypeScript",
+      title: "Full-Stack Business & Management Platform",
+      category: "React.js · Next.js · FastAPI · PostgreSQL",
       year: "2026",
-      badge: "Observability & ML",
-      tagline: "An advanced developer analytics and telemetry tracing platform designed for real-time observability, distributed request tracing, and performance metrics.",
-      description: "Engineered a unified distributed request-tracing and telemetry platform utilizing OpenTelemetry-like spans to monitor performance bottlenecks, latency spikes, and ML-based error clustering in real-time.",
-      problem: "Modern web applications produce fragmented telemetry logs that are difficult to correlate without heavy, expensive enterprise monitoring infrastructure.",
-      solution: "Engineered a unified distributed request-tracing and telemetry platform utilizing OpenTelemetry-like spans to monitor performance bottlenecks and error propagation in real-time.",
-      role: "Lead Full-Stack Developer",
-      tags: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Node.js", "Socket.io", "REST APIs"],
+      badge: "Web & API Architecture",
+      tagline: "A modern component-based full-stack web application featuring responsive UI workflows, REST API integration, and real-time database management.",
+      description: "Engineered a scalable business web platform combining a responsive Next.js & Tailwind CSS frontend with a high-performance FastAPI & Node.js backend connected to PostgreSQL and MongoDB.",
+      problem: "Growing teams require fast, mobile-first web interfaces connected reliably to backend databases without sluggish page reloads or fragmented UI components.",
+      solution: "Architected reusable React/Next.js UI components with TypeScript and Tailwind CSS, integrated seamlessly with RESTful FastAPI & Node.js endpoints.",
+      role: "Frontend & Full-Stack Developer",
+      tags: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "FastAPI", "Node.js", "PostgreSQL"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
       githubUrl: "https://github.com/Faseeh-ur-Rehman46",
       liveUrl: "https://github.com/Faseeh-ur-Rehman46",
       accentColor: "#a855f7",
-      metrics: ["Real-Time Spans", "ML Error Clustering", "Sub-second Socket Stream"]
+      metrics: ["Component-Based UI", "REST API Integration", "Mobile-First Responsive"]
     },
     {
-      id: "rag-knowledge-engine",
+      id: "desktop-business-suite",
       number: "02",
-      title: "RAG Knowledge Engine & Vector Search",
-      category: "Full-Stack RAG · Gemini & Supabase",
-      year: "2026",
-      badge: "GenAI & Vector Search",
-      tagline: "A full-stack retrieval-augmented generation (RAG) system backed by Google Gemini LLM and Supabase pgvector.",
-      description: "Built a lightweight React & Next.js architecture that connects to Supabase vector search, performs cosine similarity retrieval over custom knowledge bases, and streams contextual LLM answers.",
-      problem: "Static applications and documentation portals cannot dynamically synthesize context-specific answers from large custom datasets in real time.",
-      solution: "Engineered a plug-and-play React & Next.js pipeline backed by Supabase pgvector embeddings and Google Gemini API for high-precision retrieval.",
-      role: "Full-Stack & AI Engineer",
-      tags: ["TypeScript", "React", "Google Gemini API", "Supabase pgvector", "Next.js", "RAG"],
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+      title: "Cross-Platform Desktop Business Application",
+      category: "Desktop App · Electron & PySide6",
+      year: "2025",
+      badge: "Desktop Software",
+      tagline: "High-efficiency desktop software engineered with Electron and Python PySide6 for streamlined business workflows and local/remote database handling.",
+      description: "Developed interactive desktop application interfaces using Electron and PySide6, integrating structured business logic with Oracle Database and PostgreSQL connectivity.",
+      problem: "Many enterprise and retail workflows need dedicated desktop applications with native performance, offline resilience, and direct database connectivity.",
+      solution: "Implemented modular desktop interfaces using PySide6 and Electron with clean state management, debugging pipelines, and SQL/NoSQL data persistence.",
+      role: "Desktop Application Developer",
+      tags: ["Electron", "PySide6", "Python", "JavaScript", "Oracle Database", "PostgreSQL"],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
       githubUrl: "https://github.com/Faseeh-ur-Rehman46",
       liveUrl: "https://github.com/Faseeh-ur-Rehman46",
       accentColor: "#a855f7",
-      metrics: ["Cosine Vector Search", "Gemini LLM Streaming", "Low-Latency Retrieval"]
+      metrics: ["Electron & PySide6", "Business Workflow Automation", "Multi-DB Connectivity"]
     },
     {
-      id: "image-tampering-detection",
+      id: "mobile-responsive-app",
       number: "03",
-      title: "Image Tampering Detection",
-      category: "AI Computer Vision · TensorFlow",
-      year: "2026",
-      badge: "90%+ CV Accuracy",
-      tagline: "An intelligent computer vision system leveraging deep learning to distinguish authentic images from spliced and tampered media with over 90% accuracy.",
-      description: "Developed an AI forensic pipeline using Error Level Analysis (ELA) and Convolutional Neural Networks (CNNs) in TensorFlow and OpenCV to detect digital image splicing and manipulation.",
-      problem: "Digital image manipulation and deepfakes make visual content authentication difficult, requiring automated, reliable forensic detection pipelines.",
-      solution: "Developed an AI forensic pipeline using Error Level Analysis (ELA) and Convolutional Neural Networks (CNNs) in TensorFlow to detect image splicing with 90%+ accuracy.",
-      role: "AI / ML & Full-Stack Developer",
-      tags: ["Python", "TensorFlow", "OpenCV", "Flask", "React", "Tailwind CSS", "ELA Forensics"],
+      title: "Mobile-First Application & Workflow Portal",
+      category: "Mobile & Web App · React · REST APIs",
+      year: "2025",
+      badge: "Mobile & App UI",
+      tagline: "Cross-device mobile application interface with adaptive layouts, interactive DOM workflows, and seamless frontend-backend API synchronization.",
+      description: "Built a mobile-friendly web and application interface prioritizing touch ergonomics, cross-device layout adaptation, and fast REST API data fetching.",
+      problem: "Users accessing business applications across smartphones, tablets, and desktops often face broken layouts and inconsistent interaction flows.",
+      solution: "Designed a mobile-first component architecture using React.js, Tailwind CSS, and modular REST API hooks for consistent cross-device performance.",
+      role: "Web & Mobile App Developer",
+      tags: ["React.js", "TypeScript", "Tailwind CSS", "Mobile-First UI", "REST APIs", "MongoDB"],
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+      githubUrl: "https://github.com/Faseeh-ur-Rehman46",
+      liveUrl: "https://github.com/Faseeh-ur-Rehman46",
+      accentColor: "#a855f7",
+      metrics: ["Cross-Device Adaptation", "Reusable UI Components", "Fast API Sync"]
+    },
+    {
+      id: "opencv-mediapipe-vision",
+      number: "04",
+      title: "Computer Vision & MediaPipe Interactive System",
+      category: "AI / Computer Vision · Python · OpenCV",
+      year: "2025",
+      badge: "OpenCV & MediaPipe",
+      tagline: "Real-time computer vision and visual tracking pipeline built with Python, OpenCV, and Google MediaPipe.",
+      description: "Applied AI/ML fundamentals with OpenCV and MediaPipe in Python to process live visual streams, detect landmarks, and trigger interactive application workflows.",
+      problem: "Processing real-time camera feeds for gesture, landmark, or visual analysis requires low-latency frame processing and clean integration with application UIs.",
+      solution: "Combined OpenCV image processing with MediaPipe tracking models and a Python/FastAPI interface for responsive real-time visual recognition.",
+      role: "Python & AI/CV Developer",
+      tags: ["Python", "OpenCV", "MediaPipe", "AI/ML Fundamentals", "FastAPI"],
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
       githubUrl: "https://github.com/Faseeh-ur-Rehman46",
       liveUrl: "https://github.com/Faseeh-ur-Rehman46",
       accentColor: "#a855f7",
-      metrics: ["90%+ Detection Accuracy", "ELA + CNN Pipeline", "Flask + React UI"]
-    },
-    {
-      id: "electricity-forecast-app",
-      number: "04",
-      title: "Electricity Forecast App",
-      category: "Time-Series ML · AWS Cloud",
-      year: "2025",
-      badge: "AWS Deployed",
-      tagline: "A cloud-hosted predictive analytics application using machine learning to forecast electricity consumption trends and assist in energy load management.",
-      description: "Implemented time-series forecasting models in Python deployed on AWS EC2, featuring an interactive Streamlit dashboard for real-time energy consumption trend visualization.",
-      problem: "Energy grids and organizations experience costly waste due to inaccurate short-term power demand forecasts and volatile usage patterns.",
-      solution: "Implemented time-series forecasting models in Python deployed on AWS EC2, featuring an interactive Streamlit dashboard for real-time trend visualization.",
-      role: "ML & Cloud Engineer",
-      tags: ["Python", "AWS EC2", "Streamlit", "Pandas", "Scikit-Learn", "Time Series ML"],
-      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Faseeh-ur-Rehman46",
-      liveUrl: "https://github.com/Faseeh-ur-Rehman46",
-      accentColor: "#a855f7",
-      metrics: ["AWS EC2 Hosted", "Time-Series ARIMA/ML", "Interactive Streamlit"]
-    },
-    {
-      id: "folder-locker",
-      number: "05",
-      title: "Folder Locker",
-      category: "Security Utility · Cryptography",
-      year: "2025",
-      badge: "Security & Crypto",
-      tagline: "A lightweight folder locking and file encryption utility designed to protect sensitive local directories with password authentication.",
-      description: "Implemented cryptographic directory protection and password hashing in Python with clean CLI and graphical locking capabilities for zero-bloat local security.",
-      problem: "Users need simple, offline privacy solutions to guard private local folders without installing bloated third-party security software.",
-      solution: "Implemented AES-based directory obfuscation and password hashing in Python with clean CLI and graphical locking capabilities.",
-      role: "Python Developer",
-      tags: ["Python", "Cryptography", "OS Utilities", "Security", "Desktop Utility"],
-      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Faseeh-ur-Rehman46",
-      liveUrl: "https://github.com/Faseeh-ur-Rehman46",
-      accentColor: "#a855f7",
-      metrics: ["AES Encryption", "Zero-Dependency CLI/GUI", "Fast Local Lock"]
+      metrics: ["Real-Time OpenCV Pipeline", "MediaPipe Landmark Tracking", "Python Integration"]
     }
   ]
 };
